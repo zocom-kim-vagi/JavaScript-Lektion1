@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            #jsdiv{
+                display: none;
+                font-size: 30px;
+                margin:auto;
+                text-align: center;
+            }
+    </style>
+
+
+</head>
+<body>
+
+    <button type="button" id="jsbutton" OnClick="document.getElementById('jsdiv').style.display = 'block';">Visa</button>
+
+    <div id="jsdiv">Här finns viktig information!</div>
+
+    <script>
+            var fNamn="Kim";
+            var eNamn="Vági";
+            document.getElementById('jsdiv').innerHTML=fNamn + " " + eNamn;
+    
+    </script>
+
+
+
+
+
+</body>
+</html>
